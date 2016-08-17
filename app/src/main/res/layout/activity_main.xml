@@ -3,9 +3,33 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BLANK TEMPLATE" />
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/question_text"
+        android:hint="@string/question"/>
+
+    <Button
+        android:id="@+id/cow_button"
+        android:text="@string/cow"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/pig_button"
+        android:text="@string/pig"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sheep_button"
+        android:text="@string/sheep"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

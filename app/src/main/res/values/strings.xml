@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Magic Animals</string>
+    <string name="question">Ask a question...</string>
+    <string name="cow">Magic Cow</string>
+    <string name="pig">Magic Pig</string>
+    <string name="sheep">Magic Sheep</string>
+    <string name="answer">The answer is...</string>
 </resources>
